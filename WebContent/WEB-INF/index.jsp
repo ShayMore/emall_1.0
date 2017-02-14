@@ -1,4 +1,6 @@
-<!DOCTYPE HTML>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>Home</title>
@@ -57,8 +59,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="top_right">
 					<ul>
 						<li><a href="#">help</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="#">Delivery information</a></li>
+						<li><a href="contact">Contact</a></li>
+						<li><a href="userslist">Delivery information</a></li>
 						
 					</ul>
 				</div>
@@ -738,7 +740,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<div class="copyrights">
-		Collect from <a href="http://www.cssmoban.com/">手机网站模板</a>
+		Collect from <a href="http://www.cssmoban.com/">ææºç½ç«æ¨¡æ¿</a>
 	</div>
 	<!--start-content-->
 	<!--start-banner-->
@@ -886,199 +888,199 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!--//latest-->
-	<div class="container">
-		<div class="recommand-section">
-			<div class="recommand-section-head text-center">
-				<h3 class="tittle fea">Recommended Products</h3>
-			</div>
-			<div class="recommand-section-grids">
+<!-- 	<div class="container"> -->
+<!-- 		<div class="recommand-section"> -->
+<!-- 			<div class="recommand-section-head text-center"> -->
+<!-- 				<h3 class="tittle fea">Recommended Products</h3> -->
+<!-- 			</div> -->
+<!-- 			<div class="recommand-section-grids"> -->
 
-				<div class="standards">
-					<h5>
-						Tags<i class="glyphicon glyphicon-tag"></i>
-					</h5>
-					<ul class="selectors_wrapper">
-						<li class="selector active" data-selector="1">Popular</li>
-						<li class="selector" data-selector="2">Sales</li>
-						<li class="selector" data-selector="3">Seller</li>
-						<li class="selector" data-selector="4">Rate</li>
-					</ul>
+<!-- 				<div class="standards"> -->
+<!-- 					<h5> -->
+<!-- 						Tags<i class="glyphicon glyphicon-tag"></i> -->
+<!-- 					</h5> -->
+<!-- 					<ul class="selectors_wrapper"> -->
+<!-- 						<li class="selector active" data-selector="1">Popular</li> -->
+<!-- 						<li class="selector" data-selector="2">Sales</li> -->
+<!-- 						<li class="selector" data-selector="3">Seller</li> -->
+<!-- 						<li class="selector" data-selector="4">Rate</li> -->
+<!-- 					</ul> -->
 
-					<div class="standard_content">
-						<div class="standard active" data-selector="1">
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s2.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="r-title">
-										<h3>Sunny Dress</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-								<div class="atc">
-									<a href="single.html">Shop</a>
-								</div>
-							</div>
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s1.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>White Shirt</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s3.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>Puma Shoe</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="standard" data-selector="2">
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s3.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>Sunny Dress</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s2.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>White Shirt</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s1.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>Puma Shoe</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="standard" data-selector="3">
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s2.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>Sunny Dress</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s1.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>White Shirt</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s3.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>Puma Shoe</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="standard" data-selector="4">
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s1.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>Sunny Dress</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s3.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>White Shirt</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="tag-grid">
-								<div class="tag-wrapper">
-									<a href="single.html"><img src="images/s2.jpg"
-										class="img-responsive" alt="" /></a>
-									<div class="atc">
-										<a href="single.html">Shop</a>
-									</div>
-									<div class="r-title">
-										<h3>Puma Shoe</h3>
-										<h4>$30</h4>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
+<!-- 					<div class="standard_content"> -->
+<!-- 						<div class="standard active" data-selector="1"> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s2.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>Sunny Dress</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 								<div class="atc"> -->
+<!-- 									<a href="single.html">Shop</a> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s1.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>White Shirt</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s3.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>Puma Shoe</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="clearfix"></div> -->
+<!-- 						</div> -->
+<!-- 						<div class="standard" data-selector="2"> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s3.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>Sunny Dress</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s2.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>White Shirt</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s1.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>Puma Shoe</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="clearfix"></div> -->
+<!-- 						</div> -->
+<!-- 						<div class="standard" data-selector="3"> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s2.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>Sunny Dress</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s1.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>White Shirt</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s3.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>Puma Shoe</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="clearfix"></div> -->
+<!-- 						</div> -->
+<!-- 						<div class="standard" data-selector="4"> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s1.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>Sunny Dress</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s3.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>White Shirt</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="tag-grid"> -->
+<!-- 								<div class="tag-wrapper"> -->
+<!-- 									<a href="single.html"><img src="images/s2.jpg" -->
+<!-- 										class="img-responsive" alt="" /></a> -->
+<!-- 									<div class="atc"> -->
+<!-- 										<a href="single.html">Shop</a> -->
+<!-- 									</div> -->
+<!-- 									<div class="r-title"> -->
+<!-- 										<h3>Puma Shoe</h3> -->
+<!-- 										<h4>$30</h4> -->
+<!-- 									</div> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 							<div class="clearfix"></div> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 					<div class="clearfix"></div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
 
 	<div class="mid-content">
 		<div class="container">

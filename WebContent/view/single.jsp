@@ -1,7 +1,9 @@
-<!DOCTYPE HTML>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Checkout</title>
+<title>Single</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Nuevo Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -17,6 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
 <script src="js/menu_jquery.js"></script>
 <script src="js/simpleCart.min.js"> </script>
+<script src="js/bootstrap.js"> </script>
 <!--web-fonts-->
  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600,700' rel='stylesheet' type='text/css'>
  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700' rel='stylesheet' type='text/css'>
@@ -24,6 +27,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/modernizr.custom.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
 <!--/script-->
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
@@ -33,6 +38,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			});
 </script>
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+		<script type="text/javascript" id="sourcecode">
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+		</script>
+<!-- //the jScrollPane script -->
 </head>
 <body>
 <!--start-home-->
@@ -66,8 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="cart box_1">
 				<a href="checkout.html">
 				<div class="total">
-					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)
-				</div>
+					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
 					<i class="glyphicon glyphicon-shopping-cart"></i>
 				</a>
 				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
@@ -723,112 +736,247 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 </div>
  <!--start-content-->
- <!-- Moore start-->
-<div class="cart-items">
-	<div class="container" style="background-color:#F4F4F4;margin-top:20px;height:50px;line-height:50px;font-family: 'Roboto Slab', serif;">
-	You have not logged! If you want to get more personal information, please <a href="checkout.html#" style="text-decoration:underline;.color:#000;"> sign in.</a>
-	</div>
-</div>
-<!-- Moore end -->
-<!-- checkout -->
-<div class="cart-items">
-	<div class="container">
-			 <h3 class="tittle">My shopping(3)</h3>
-				<script>$(document).ready(function(c) {
-					$('.close1').on('click', function(c){
-						$('.cart-header').fadeOut('slow', function(c){
-							$('.cart-header').remove();
+<!-- products -->
+	<div class="products">
+		<div class="container">
+			<div class="products-grids">
+				<div class="col-md-8 products-single">
+				<div class="col-md-5 grid-single">		
+						<div class="flexslider">
+							  <ul class="slides">
+								<li data-thumb="images/z1.jpg">
+									<div class="thumb-image"> <img src="images/z1.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+								</li>
+								<li data-thumb="images/z2.jpg">
+									 <div class="thumb-image"> <img src="images/z2.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+								</li>
+								<li data-thumb="images/z4.jpg">
+								   <div class="thumb-image"> <img src="images/z4.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+								</li> 
+							  </ul>
+						</div>
+						<!-- FlexSlider -->
+						<script src="js/imagezoom.js"></script>
+						<script defer src="js/jquery.flexslider.js"></script>
+						<script>
+						// Can also be used with $(document).ready()
+						$(window).load(function() {
+						  $('.flexslider').flexslider({
+							animation: "slide",
+							controlNav: "thumbnails"
+						  });
 						});
-						});	  
-					});
-			   </script>
-			 <div class="cart-header">
-				 <div class="close1"> </div>
-				 <div class="cart-sec simpleCart_shelfItem">
-						<div class="cart-item cyc">
-							 <img src="images/f4.jpg" class="img-responsive" alt="">
+						</script>
+
+					</div>	
+				<div class="col-md-7 single-text">
+					<div class="details-left-info simpleCart_shelfItem">
+						<h3>Accessories Latest</h3>
+						<p class="availability">Availability: <span class="color">In stock</span></p>
+						<div class="price_single">
+							<span class="reducedfrom">$800.00</span>
+							<span class="actual item_price">$600.00</span><a href="#">click for offer</a>
 						</div>
-					   <div class="cart-item-info">
-						<h3><a href="#"> Lorem Ipsum is not simply </a><span>Pickup time:</span></h3>
-						<ul class="qty">
-							<li><p>Min. order value:</p></li>
-							<li><p>FREE delivery</p></li>
+						<h2 class="quick">Quick Overview</h2>
+						<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+					    <h3>available Colors</h3>
+						<ul class="product-colors">
+							<li><a class="color1" href="#"><span> </span></a></li>
+							<li><a class="color2" href="#"><span> </span></a></li>
+							<li><a class="color3" href="#"><span> </span></a></li>
+							<li><a class="color4" href="#"><span> </span></a></li>
+							<li><a class="color5" href="#"><span> </span></a></li>
+							<li><a class="color6" href="#"><span> </span></a></li>
+							<li><a class="color7" href="#"><span> </span></a></li>
+							<li><a class="color8" href="#"><span> </span></a></li>
 						</ul>
-							 <div class="delivery">
-							 <p>Service Charges : $10.00</p>
-							 <span>Delivered in 1-1:30 hours</span>
-							 <div class="clearfix"></div>
-				        </div>	
-					   </div>
-					   <div class="clearfix"></div>
-											
-				  </div>
-			 </div>
-			 <script>$(document).ready(function(c) {
-					$('.close2').on('click', function(c){
-							$('.cart-header2').fadeOut('slow', function(c){
-						$('.cart-header2').remove();
-					});
-					});	  
-					});
-			 </script>
-			 <div class="cart-header2">
-				 <div class="close2"> </div>
-				  <div class="cart-sec simpleCart_shelfItem">
-						<div class="cart-item cyc">
-							 <img src="images/f5.jpg" class="img-responsive" alt="">
+						<h3>Length</h3>
+						<ul class="size">
+							<li><a href="#">7</a></li>
+							<li><a href="#">6</a></li>
+						</ul>
+						<div class="quantity_box">
+						    <span>Quantity:</span>
+							<div class="product-qty">
+								<select>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+									<option>6</option>
+								</select>
+							</div>
 						</div>
-					   <div class="cart-item-info">
-						<h3><a href="#"> Lorem Ipsum is not simply </a><span>Pickup time:</span></h3>
-						<ul class="qty">
-							<li><p>Min. order value:</p></li>
-							<li><p>FREE delivery</p></li>
-						</ul>
-							 <div class="delivery">
-							 <p>Service Charges : $10.00</p>
-							 <span>Delivered in 1-1:30 hours</span>
-							 <div class="clearfix"></div>
-				        </div>	
-					   </div>
-					   <div class="clearfix"></div>
-											
-				  </div>
-			  </div>
-			  <script>$(document).ready(function(c) {
-					$('.close3').on('click', function(c){
-							$('.cart-header3').fadeOut('slow', function(c){
-						$('.cart-header3').remove();
-					});
-					});	  
-					});
-			 </script>
-			  <div class="cart-header3">
-				 <div class="close3"> </div>
-				  <div class="cart-sec lost simpleCart_shelfItem">
-						<div class="cart-item cyc">
-							 <img src="images/f6.jpg" class="img-responsive" alt="">
+					<div class="clearfix"> </div>
+				<div class="single-but item_add">
+					<input type="submit" value="add to cart"/>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="col-md-4 products-grid-right">
+					<div class="w_sidebar">
+						<div class="w_nav1">
+							<h4>All</h4>
+							<ul>
+								<li><a href="product.html">women</a></li>
+								<li><a href="#">new fashions</a></li>
+								<li><a href="#">trends</a></li>
+								<li><a href="#">boys</a></li>
+								<li><a href="#">girls</a></li>
+								<li><a href="#">sale</a></li>
+							</ul>	
 						</div>
-					   <div class="cart-item-info">
-						<h3><a href="#"> Lorem Ipsum is not simply </a><span>Pickup time:</span></h3>
-						<ul class="qty">
-							<li><p>Min. order value:</p></li>
-							<li><p>FREE delivery</p></li>
-						</ul>
-							 <div class="delivery">
-							 <p>Service Charges : $10.00</p>
-							 <span>Delivered in 1-1:30 hours</span>
-							 <div class="clearfix"></div>
-				        </div>	
-					   </div>
-					   <div class="clearfix"></div>
-											
-				  </div>
-			  </div>		
-		 </div>
-		 </div>
-      <!--//checkout-->
-		  <!--start-bottom-->
-		    <!--start-image-cursuals-->
+						<section  class="sky-form">
+							<h4>CATEGORIES</h4>
+							<div class="row1 scroll-pane">
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Men's Jackets</label>
+								</div>
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Shoes</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Glases</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Watches</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Hand Bags</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>Bags</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>shirts</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>tempore</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>soluta nobis</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>molestiae</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>repudiandae sint</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>nobis est</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>assumenda est</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Anouk</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>tempore</label>
+								</div>
+							</div>
+						</section>
+						<section  class="sky-form">
+							<h4>brand</h4>
+							<div class="row1 scroll-pane">
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Lee</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Anouk</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>tempore</label>
+								</div>
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>vishud</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>amari</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>shree</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Anouk</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>biba</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>shree</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Anouk</label>																							
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<!-- collapse -->
+    <div class="panel-group collpse" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Description
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+           additional information
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          reviews(5)
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          help
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+<!-- collapse -->
+ <!--/start-latest-->
+		<div class="collection-section">
+		     <h3 class="tittle">Related Products</h3>
+
+		   <div class="fashion-info">
+				<div class="col-md-4 fashion-grids">
+					<figure class="effect-bubba">
+						<img src="images/f4.jpg" alt=""/>
+						<figcaption>
+							<h4>Nuevo Shop</h4>
+							<p class="cart"><a href="#">Shop</a></p>				
+						</figcaption>			
+					</figure>		
+				</div>
+				<div class="col-md-4 fashion-grids">
+					<figure class="effect-bubba">
+						<img src="images/f5.jpg" alt=""/>
+						<figcaption>
+							<h4>Nuevo Shop</h4>
+								<p class="cart"><a href="#">Shop</a></p>				
+						</figcaption>			
+					</figure>		
+				</div>
+				<div class="col-md-4 fashion-grids">
+					<figure class="effect-bubba">
+						<img src="images/f6.jpg" alt=""/>
+						<figcaption>
+							<h4>Nuevo Shop</h4>
+							<p class="cart"><a href="#">Shop</a></p>							
+						</figcaption>			
+					</figure>		
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+       <!--//latest-->
+			</div>
+	</div>
+<!-- //products -->
+	 <!--start-bottom-->
+		   <!--start-image-cursuals-->
                   <div class="scroll-slider">
                   	<div class="container"> 											 
 							<div class="nbs-flexisel-container"><div class="nbs-flexisel-inner"><ul class="flexiselDemo3 nbs-flexisel-ul" style="left: -253.6px; display: block;">					    					    					       
